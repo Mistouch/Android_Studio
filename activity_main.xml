@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:text=""
+        android:textSize="30dp"
+        android:clickable="true"
+        />
+
+    <Button
+        android:id="@+id/B2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/B1"
+        android:text=""
+        android:textSize="30dp"
+        android:clickable="true"
+        />
+
+    <Button
+        android:id="@+id/B3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/B2"
+        android:text=""
+        android:textSize="30dp"
+        android:clickable="true"
+        />
+    <Button
+        android:id="@+id/B4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:text=""
+        android:textSize="30dp"
+        android:clickable="true"
+        />
+
+    <Button
+        android:id="@+id/B5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_toRightOf="@+id/B4"
+        android:text=""
+        android:textSize="30dp"
+        android:clickable="true"
+        />
+    <Button
+        android:id="@+id/B6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_toRightOf="@+id/B5"
+        android:text=""
+        android:textSize="30dp"
+        android:clickable="true"
+        />
+    <Button
+        android:id="@+id/B7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:text=""
+        android:textSize="30dp"
+        android:clickable="true"
+        />
+    <Button
+        android:id="@+id/B8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_toRightOf="@+id/B7"
+        android:text=""
+        android:textSize="30dp"
+        android:clickable="true"
+        />
+    <Button
+        android:id="@+id/B9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_toRightOf="@+id/B8"
+        android:text=""
+        android:textSize="30dp"
+        android:clickable="true"
+        />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="120dp"
+        android:text="Reset"
+        android:textSize="20sp"
+        />
+
+     <TextView
+         android:id="@+id/win"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Player 1 and Player 2 are playing"
+         android:textSize="20sp"
+        android:layout_marginLeft="50dp"
+         android:layout_marginTop="600dp"
+         android:textStyle="bold"
+         />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIC TAC TOE"
+        android:textSize="30sp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Devloped By Mistouch"
+        android:textSize="15sp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="700dp"
+        android:textStyle="normal"
+        />
+
+
+</RelativeLayout>
